@@ -1,14 +1,14 @@
 {
   "name": "novel-translator",
   "version": "0.0.1",
-  "description": "",
+  "description": "Translate japanese novels and textbooks using Google image translate",
   "main": "dist/start.js",
   "scripts": {
     "start": "tsc && node dist/start.js"
   },
-  "keywords": [],
+  "keywords": ["novel", "textbook", "pdf", "translator"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.0.3",
     "typescript": "^5.9.3"

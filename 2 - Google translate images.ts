@@ -56,7 +56,7 @@ const translateImages = async (imageDir: string, destFolder?: string, targetLang
         }, clearBtn)
 
         let downloadFolder = path.join(os.homedir(), "Downloads")
-        const translatedFile = path.join(downloadFolder, "translated_image_en.png")
+        const translatedFile = path.join(downloadFolder, `translated_image_${targetLang}.png`)
         const targetDest = path.join(destFolder, path.basename(filepath, ext) + ".png")
 
         fs.renameSync(translatedFile, targetDest)
