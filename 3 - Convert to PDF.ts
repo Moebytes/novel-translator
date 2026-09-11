@@ -1,4 +1,3 @@
-
 import PDFDocument from "@react-pdf/pdfkit"
 import functions from "./functions"
 import fs from "fs"
