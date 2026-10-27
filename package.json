@@ -6,7 +6,12 @@
   "scripts": {
     "start": "tsc && node dist/start.js"
   },
-  "keywords": ["novel", "textbook", "pdf", "translator"],
+  "keywords": [
+    "novel",
+    "textbook",
+    "pdf",
+    "translator"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -16,6 +21,8 @@
   "dependencies": {
     "@napi-rs/canvas": "^0.1.84",
     "@react-pdf/pdfkit": "^4.0.4",
+    "ag-psd": "^33.0.0",
+    "dotenv": "^18.0.9",
     "pdfjs-dist": "github:Moestash/pdfjs-dist",
     "puppeteer-real-browser": "^1.4.4"
   }

@@ -12,6 +12,10 @@ A three step process to translate japanese novels and textbooks into english usi
 
 3. Creates a new pdf from the translated images. If you want to keep it as a folder of images you may skip this step.
 
+=== 
+
+4. This is a separate script that translates all the layers of a PSD file into english.
+
 ### Running
 Make sure that you edit `start.ts` to translate your own pdf
 ```ts
